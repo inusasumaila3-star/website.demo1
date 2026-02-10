@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INEC portal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto ">
+          <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <a class="nav-link active"aria-current="page" href="">My application</a>
+          <a class="nav-link active"aria-current="page" href="PVC pickup.html">PVC pickup</a>
+          <a class="nav-link active"aria-current="page" href="Check Voter Status.html">Check Voter Status</a>
+          <a class="nav-link active" aria-current="page" href="Polling Unit Locator.html">Polling Unit Locator</a>
+          <a class="nav-link active" aria-current="page" href="Registration Centers.html">Registration Centres</a>
+          </ul>
+          <a class="nav-link" href="#">Help</a>
+        </div>
+      </div>
+    </div>
+  </nav> 
+  <div class="container py-4">
+    <div class="row justify-content-start">
+      <div class="col-md-7">
+
+        <div class="card shadow-sm">
+          <div class="card-body p-5">
+            <h4 class="text-start mb-3">
+              Welcome to the Voter Verification Service
+            </h4>
+
+            <p class="text-muted text-start">
+              You can check your voter status by entering your details below.
+            </p>
+
+            <div class="form-section mt-4">
+              <div class="section-toggle p-3">
+                 Check Status Using Your Name & Date of Birth  
+              </div>
+
+            </div>
+
+            <div class="p-4">
+            <form>
+              <!-- state -->
+               <div class="mb-3">
+                <div class="col-md-6 mb-3">
+                <label class="form-label">State of Registration<span class="text-danger">*</span></label>
+                <select class="form-select" required>
+                  <option value="">Choose State</option>
+                  <option>Lagos</option>
+                  <option>Abuja (FCT)</option>
+                  <option>Kano</option>
+                </select>
+              </div>
+               </div>
+
+               <!-- LGA -->
+                <div class="mb-3">
+                  <div class="col-md-6 mb-3">
+                  <label class="form-label">Local Goverment of Registration<span class="text-danger">*</span></label>
+                  <select class="form-select" required>
+                  <option value="">Choose Local Goverment</option>
+                  <option>Ikeja</option>
+                  <option>Alimosho</option>
+                </select>
+                </div>
+              </div>
+
+              <!-- Names -->
+               <div class="row-3">
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">Last Name<span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" required>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">First Name<span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" required>
+                </div>
+              </div>
+
+              <!-- Date of Birth -->
+               <label class=""form-label>Date of Birth<span class="text-danger">*</span></label>
+               <div class="row mb-3">
+                <div class="col-md-4">
+                  <select class="form-select" required>
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
+                 </div>
+
+                 <div class="col-md-4">
+                  <select class="form-select" required>
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>Febuary</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <select class="form-select" required>
+                    <option>Year</option>
+                    <option>2000</option>
+                    <option>1999</option>
+                  </select>
+                  
+                </div>
+
+                <!-- CAPTCHA Placeholder -->
+                 <div class="mb-4">
+                  <div class="border rounded p-3 text-center text-muted">
+                    reCAPTCHA 
+                  </div>
+                </div>
+                <!-- Button -->
+                  <button class="btn btn-success px-4">
+                    Check Status
+                  </button>
+
+
+               </div>
+
+            </form>
+            </div>
+  
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+  background-color: #f8f9fb;
+}
+.auth-container{
+  max-width: 1100px;
+  margin: 40px auto;
+}
+.card{
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgb(0,0,0,0.05);
+}
+.form-label  span{
+color: red;
+}
+.google-btn{
+  background-color: #db4437;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 8px 0;
+  border-radius: 4px;
+}
+.google-btn img{
+  width: 18px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.google-btn:hover{
+  background-color: #c33d2f;
+}

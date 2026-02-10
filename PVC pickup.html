@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INEC portal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto ">
+          <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <a class="nav-link active"aria-current="page" href="">My application</a>
+          <a class="nav-link active"aria-current="page" href="PVC pickup.html">PVC pickup</a>
+          <a class="nav-link active"aria-current="page" href="Check Voter Status.html">Check Voter Status</a>
+          <a class="nav-link active" aria-current="page" href="Polling Unit Locator.html">Polling Unit Locator</a>
+          <a class="nav-link active" aria-current="page" href="Registration Centers.html">Registration Centres</a>
+          </ul>
+          <a class="nav-link" href="#">Help</a>
+        </div>
+      </div>
+    </div>
+  </nav> 
+
+
+<div class="container mt-4">
+  <div class="card p-3 mb-5">
+  <h5 class="fw-bold mb-3">Portal Account</h4>
+  <p class="mb-4 text-muted">Your use of this portal means that you accept the <a href="#">Terms & Conditions</a>. To continue, please use the form below to create your account or log in if you already have a Portal Account.</p>
+  </div>
+</div>
+
+<!-- <div class="container auth-container">
+  <div class="text-center mb-4">
+    <h4 class="fw-bold">INDEPENDENT NATIONAL ELECTORAL COMMISION</h4>
+    <P class="text-muted mb-0">Portal Login / Registration</P>
+</div> -->
+
+<div class="row g-4">
+  <!-- left column -->
+   <div class="col-md-5">
+    <!-- social login -->
+     <div class="card mb-5 p-4">
+      <h6 class="fw-bold ">Sign Up or Login in with Social Media</h6>
+      <button class="google-btn w-100 mt-3">
+        <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google icone">
+        Sign in with Google
+      </button>
+    </div>
+
+    <!--Email login  -->
+    <div class="row-5">
+    <div class="card p-4 ">
+      <h6 class="fw-bold mb-0">Login in with Email</h6>
+      <p class="text-muted mb-3">Login here if you already have a Portal Account
+      <form>
+
+        <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control">
+       </div>
+       <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control">
+       </div>
+       <button type="submit" class="btn btn-primary w-100">Log In</button>
+      </form>
+    </div>
+  </div>
+  </div>
+
+<!-- right column -->
+ <div class="col-md-5">
+  <div class="card p-4">
+    <h6 class="fw-bold mb-3">New Portal Users</h6>
+    <p class="text-muted small">Create a Portal Account Continue </p>
+
+    <form>
+      <div class="row-5">
+        <div class="col-md-6 mb-3">
+          <label class="form-label">First Name<span>*</span></label>
+          <input type="text" class="form-control">
+        </div>
+         <div class="col-md-6 mb-3">
+          <label class="form-label">Last Name/Surname<span>*</span></label>
+          <input type="text" class="form-control">
+        </div>
+         <div class="col-md-6 mb-3">
+          <label class="form-label">Mobile Number<span>*</span></label>
+          <input type="text" class="form-control">
+        </div>
+         <div class="col-md-6 mb-3">
+          <label class="form-label">Email<span>*</span></label>
+          <input type="text" class="form-control">
+        </div>
+         <div class="col-md-6 mb-3">
+          <label class="form-label">Confirm Email<span>*</span></label>
+          <input type="text" class="form-control">
+        </div>
+         <div class="col-md-6 mb-3">
+          <label class="form-label">Password<span>*</span></label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="col-12 mb-3">
+          <button type="submit" class="btn btn-success w-100 mt-2">Create Account</button>
+        </div>
+     </form>
+  </div>
+ </div>
+ </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>  
+</body>
+</html>
